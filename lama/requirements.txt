@@ -18,3 +18,4 @@ webdataset
 packaging
 wldhx.yadisk-direct
 timm
+diffusers

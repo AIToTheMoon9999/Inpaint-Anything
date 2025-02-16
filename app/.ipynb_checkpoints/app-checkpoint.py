@@ -157,7 +157,7 @@ with gr.Blocks(theme='shivi/calm_seafoam') as demo:
                 h = gr.Number(label="Point Coordinate H")
             sam_mask = gr.Button("Predict Mask Using SAM", variant="primary").style(full_width=True, size="sm")
             lama = gr.Button("Inpaint Image Using LaMA", variant="primary").style(full_width=True, size="sm")
-            clear_button_image = gr.Button(value="Reset", label="Reset", icon="reset", variant="secondary").style(full_width=True, size="sm")
+            clear_button_image = gr.Button(value="Reset", icon="reset", variant="secondary").style(full_width=True, size="sm")
 
 
     # todo: maybe we can delete this row, for it's unnecessary to show the original mask for customers

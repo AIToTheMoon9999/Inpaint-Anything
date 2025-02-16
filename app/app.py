@@ -285,7 +285,7 @@ with gr.Blocks() as demo:
             text_prompt = gr.Textbox(label="Text Prompt")
             lama = gr.Button("Inpaint Image", variant="primary")
             replace_sd = gr.Button("Replace Anything with SD", variant="primary")
-            clear_button_image = gr.Button(value="Reset", label="Reset", variant="secondary")
+            clear_button_image = gr.Button(value="Reset", variant="secondary")
 
     # todo: maybe we can delete this row, for it's unnecessary to show the original mask for customers
     with gr.Row(variant="panel"):
@@ -351,4 +351,4 @@ with gr.Blocks() as demo:
     )
 
 if __name__ == "__main__":
-    demo.queue(api_open=False).launch(server_name='0.0.0.0', share=False, debug=True)
+    demo.queue(api_open=True).launch(server_name='0.0.0.0', share=False, debug=True)

@@ -18,4 +18,5 @@ pretrained_models/big-lama
 
 results/*
 
-
+venv/
+inpaint_anything-20250216T092643Z-002.zip
